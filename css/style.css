@@ -16,7 +16,7 @@ img {
 
 p {text-align: center;}
 
-.container > h2 {
+.container-image > h2 {
     flex: 0 0 100%;
       background: white;
     text-align: center;
@@ -25,7 +25,7 @@ p {text-align: center;}
     border-bottom: 10px solid black;
     font-size: 40px;
     }
- .container {
+ .container-image {
         display: flex;
         flex-wrap: wrap;
         padding: 5px;
@@ -38,12 +38,20 @@ p {text-align: center;}
 
        
    }
-   .container > div {
+   .container-image > div {
     border: 3px solid black;
     font-size: 25px;
     padding: 5px;
     text-align: center;
     }
+
+    #showPassword {
+      text-decoration: underline;
+  }
+  
+  #showPassword:hover {
+      cursor: pointer;
+  }
 
 
 
